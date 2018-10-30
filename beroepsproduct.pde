@@ -77,11 +77,9 @@ void setup() {
 }
 
 void draw() {
-  fill(255);
   if(newGame) {
 	//if new game, draw the slider and name boxes
     background(0);
-    fill(0, 0, 255);
     drawAditionalInput();
   }
   if(reset) {
